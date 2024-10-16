@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    background: url(../img/Logo_robot.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-left: 30px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #c54b4b;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    font-style: normal;
+    padding: 0px 10px;
+}
+
+.menu a:hover {
+    color: #4256ca;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/Technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.centrado {
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    margin: 0;
+}
+
+.texto-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mukta-bold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    margin: 0px 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+iframe {
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.disc {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+body {
+    background: linear-gradient(to top, rgb(107, 30, 30), #a54f4f);
+    background-attachment: fixed;
+}
+
+.content {
+    margin: 0px 250px;
+    background-color: white;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.contactos {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 25px 250px;
+    height: 125px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.tipo-contacto {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to top, rgb(189, 189, 189), rgb(255, 255, 255));
+}
+
+h3 {
+    text-align: center
+}
+
+.contactito {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #c54b4b;
+    position: relative;
+    text-align: center;
+    padding: 25px ;
+}
+
+.iconos img{
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
